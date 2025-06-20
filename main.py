@@ -18,7 +18,7 @@ def show_header():
     content = (
         "[bold magenta]📌 TASK MANAGER[/bold magenta]\n"
         "[green]Using Python Script[/green]\n"
-        "[yellow]Cybersecurity Project[/yellow]\n"
+        "[yellow]Project[/yellow]\n"
         "[bold cyan]By Devangi Khatri[/bold cyan]"
     )
     panel = Panel(
