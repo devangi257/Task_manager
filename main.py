@@ -18,7 +18,6 @@ def show_header():
     content = (
         "[bold magenta]📌 TASK MANAGER[/bold magenta]\n"
         "[green]Using Python Script[/green]\n"
-        "[yellow]Project[/yellow]\n"
         "[bold cyan]By Devangi Khatri[/bold cyan]"
     )
     panel = Panel(
@@ -30,7 +29,7 @@ def show_header():
     console.print(panel)
 
 def show_menu():
-    console.print("\n[bold cyan]Cybersecurity Task Manager (Safe Version)[/bold cyan]")
+    console.print("\n[bold cyan]Task Manager (Safe Version)[/bold cyan]")
     console.print("[1] Show Running Processes")
     console.print("[2] Show System Usage")
     console.print("[3] Scan for Suspicious Processes")
