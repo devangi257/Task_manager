@@ -1,6 +1,6 @@
-# 🛡️ Cybersecurity Task Manager using Python
+# 🛡️ Task Manager using Python
 
-Welcome to the **Cybersecurity Task Manager**, a safe Python-based system info dashboard built by **Devangi Khatri**.
+Welcome to the **Task Manager**, a safe Python-based system info dashboard built by **Devangi Khatri**.
 
 > 📌 This project gives real-time system monitoring, suspicious process detection, uptime tracking, and more — all within the terminal using the `rich` library.
 
@@ -22,7 +22,7 @@ Welcome to the **Cybersecurity Task Manager**, a safe Python-based system info d
 ## 🗂️ File Structure
 
 ```bash
-CY_TASK_MAN/
+Task_manager-master/
 ├── main.py                  # Dashboard & Menu Interface
 ├── process_manager.py       # Shows running processes
 ├── system_monitor.py        # CPU, RAM, Disk usage
@@ -37,8 +37,8 @@ CY_TASK_MAN/
 ├── __pycache__/             # Python cache (excluded via .gitignore)
 
 # 1. Clone this repo
-git clone https://github.com/your-username/cyber-task-manager.git
-cd cyber-task-manager
+git clone https://github.com/devangi257/Task_manager.git
+cd Task_manager-master
 
 # 2. Install dependencies
 pip install -r requirements.txt
