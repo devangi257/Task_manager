@@ -9,8 +9,25 @@ from memory_top import top_memory_processes
 from power_info import battery_status
 from rich.console import Console
 from rich.table import Table
+from rich.align import Align
+from rich.panel import Panel
 
 console = Console()
+
+def show_header():
+    content = (
+        "[bold magenta]📌 TASK MANAGER[/bold magenta]\n"
+        "[green]Using Python Script[/green]\n"
+        "[yellow]Cybersecurity Project[/yellow]\n"
+        "[bold cyan]By Devangi Khatri[/bold cyan]"
+    )
+    panel = Panel(
+        Align.center(content, vertical="middle"),
+        title="[bold white]PROJECT INFO[/bold white]",
+        border_style="bright_blue",
+        padding=(1, 4)
+    )
+    console.print(panel)
 
 def show_menu():
     console.print("\n[bold cyan]Cybersecurity Task Manager (Safe Version)[/bold cyan]")
@@ -26,6 +43,7 @@ def show_menu():
     console.print("[10] Exit")
 
 def main():
+    show_header()  # ✅ Display the project banner
     while True:
         show_menu()
         choice = input("Enter your choice: ")
